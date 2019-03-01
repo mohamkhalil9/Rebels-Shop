@@ -1,2 +1,0 @@
-# bots
-discord bots
