@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['^help','Type ^help','Mixwell Community'];
+    var setGame = ['Type ^help','Mixwell Community'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -393,7 +393,7 @@ client.on('message', message => {
             message.channel.send({embed: {
                 color: 3447003,
                 author: {
-                  name: '3bker Community ©\'s translator',
+                  name: 'Mixwell Community ©\'s translator',
                   icon_url: client.user.avatarURL
                 },
                 fields: [{
