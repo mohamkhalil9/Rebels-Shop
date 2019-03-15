@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' $help','KillerBot','By KillerFox',' KillerBot ',' $help'];
+    var setGame = ['$help By Mi'];
     var i = -1;
     var j = 0;
     setInterval(function (){
